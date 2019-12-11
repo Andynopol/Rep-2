@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./font-awsome/css/all.min.css"/>
+    <link rel="stylesheet" href="./font-awsome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./font-awsome/css/regular.min.css" />
+    <link rel="stylesheet" href="./font-awsome/css/solid.min.css" />
+    <link rel="stylesheet" href="./font-awsome/css/svg-with-js.min.css" />
+    <link rel="stylesheet" href="./font-awsome/css/v4-shims.min.css" />
+    
+    <link rel="stylesheet" href="./style.css"/>
+
+    <title>hubgets</title>
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <!-- Logo -->
+        <header class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <img id="logo" src="./img/logo-hubgets-simple.png"/>
+            </div>
+
+        </header>
+        <!-- Logo -->
+        <!-- Top description -->
+        <div class="row">
+            <div class="col text-center head">
+                <div class="title">
+                    <h1>Create organization</h1>
+                    <p class="font-weight-light">Small or large, any team will increase productivity with Hubgets.</p>
+                    <p class="font-weight-light">It alows teams to filter noise and focus on results.</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Top description -->
+        <!-- main -->
+        <main class="row jumbotron-fluid">
+            <div  class="container">
+                <div class="row page">
+                    <div class="col-lg-6">
+                        <!-- Left side -->
+                        <div class="container jumbotron left">
+                                <div class="row">
+                                    <div class="icon">
+                                        <i id="icon" class="fas fa-user-plus"></i>
+                                    </div>
+                                    <div id="username-container" class="col-12 col-md-6">
+                                        <label for="first-name">First Name</label>
+                                        <input id="first-name" class="form-control" type="text" />
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="last-name">Last Name</label>
+                                        <input id="last-name" class="form-control" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="company">Company</label>
+                                        <input id="company" class="form-control" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div id="email-wrapper" class="col">
+                                        <label for="last-name">E-mail address</label>
+                                        <input id="email" class="form-control" type="text"/>
+                                        <i id="info-icon" data-toggle="tooltip " data-placement="bottom" class="fas fa-info-circle"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <button id="register-btn" class="btn btn-primary btn-sm">Register</button>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- Left side -->
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- right side -->
+                        <div class="container right">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="right-content">
+                                        <i id="right-icon" class="fas fa-sliders-h"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="right-content">
+                                        <p>
+                                            Centralizes communication channels and reduces overhead.
+                                        </p>
+                                    </div>                          
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="right-content">
+                                        <i id="right-icon" class="far fa-comments"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <p>
+                                        Brings together instant messaging, voice and video communication in the browser.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="right-content">
+                                        <i id="right-icon" class="fas fa-cogs"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <p>
+                                        Captures information across the organization, retains the knowledge, analyzes and improves it.
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="help" class="row">
+                                <div class="col-3">
+                                    <div class="right-content">
+                                        <i id="right-icon-last" class="fas fa-hands-helping"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p id="help-text">
+                                        +1 845 894 123 
+                                        <br/>
+                                        <br/>    
+                                        <a href="#">help@hubgets.com</a>                                   
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right side -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- main -->
+
+        <!-- Footer -->
+<footer class="row page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mt-md-0 mt-3 text-center">
+      
+              <!-- Content -->
+              <p class="logo">hubgets <i class="far fa-comments"></i></p>
+              
+              
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="link-menu text-uppercase">Our company</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <p class="link">About us</p>
+                </li>
+                <li>
+                  <p class="link">Blog</p>
+                </li>
+                <li>
+                  <p class="link">We are hiring</p>
+                </li>
+                <li>
+                  <p class="link">Terms of service</p>
+                </li>
+                <li>
+                    <p class="link">Contact us</p>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+                    <!-- Links -->
+                    <h5 class="link-menu text-uppercase">hubgets</h5>
+            
+                    <ul class="list-unstyled">
+                      <li>
+                        <p class="link">Join the program</p>
+                      </li>
+                      <li>
+                        <p class="link">Features</p>
+                      </li>
+                      <li>
+                        <p class="link">Current status</p>
+                      </li>
+                    </ul>
+            
+                  </div>
+                  <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="link-menu text-uppercase">social</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <p class="link"><i class="fab fa-twitter"></i> Twitter</p>
+                </li>
+                <li>
+                  <p class="link"><i class="fab fa-youtube"></i> Youtube</p>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">
+                <p> © Copyright: 2015 hubgets.inc</p>
+            </div>
+          <!-- Copyright -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        
+      
+      </footer>
+      <!-- Footer -->
+    </div>
+
+
+    <script src="./jquery/jquery.js"></script>
+    <script src="./jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="./scripts/scripts.js" ></script>
+    <script src="./font-awsome/js/all.min.js"></script>
+    <script src="./font-awsome/js/fontawesome.min.js"></script>
+    <script src="./font-awsome/js/brands.min.js"></script>
+    <script src="./font-awsome/js/conflict-detection.min.js"></script>
+    <script src="./font-awsome/js/regular.min.js"></script>
+    <script src="./font-awsome/js/solid.min.js"></script>
+    <script src="./font-awsome/js/v4-shims.min.js"></script>
+
+    <script src="./scrips.js"></script>
+</body>
+</html>
