@@ -28,6 +28,9 @@ const tooltipShow = ()=>{
         if(email.includes('@') && email.includes('.com')){
             console.log("Good mail");
         }
+        else if(email===''){
+            console.log('No mail');
+        }
         else{
             console.log("Invalid mail");
             $('#email').css({
